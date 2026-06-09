@@ -31,7 +31,7 @@ export default function MainHeader() {
   ];
 
   return (
-    <header className="bg-[#2f3f8f] sticky top-0 z-50 ">
+    <header className="bg-[#223a8c] sticky top-0 z-50 ">
       <div className="max-w-7xl mx-auto px-4">
 
         <div className="flex items-center justify-between py-4 gap-3">
@@ -88,7 +88,7 @@ export default function MainHeader() {
                       py-4
                       text-gray-700
                       border-b
-                      hover:bg-[#2f3f8f]
+                      hover:bg-[#223a8c]
                       hover:text-white
                       transition
                     "

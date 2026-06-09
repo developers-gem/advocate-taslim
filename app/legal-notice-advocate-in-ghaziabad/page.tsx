@@ -43,7 +43,7 @@ export default function LegalNoticeAdvocatePage() {
                         </div>
 
                         <div>
-                            <span className="text-[#03228f] uppercase tracking-widest font-semibold">
+                            <span className="text-[#223a8c] uppercase tracking-widest font-semibold">
                                 Legal Notice Services
                             </span>
 
@@ -70,7 +70,7 @@ export default function LegalNoticeAdvocatePage() {
 
                             <a
                                 href="tel:+918826552527"
-                                className="inline-flex items-center gap-2 bg-[#03228f] text-white px-6 py-3 rounded-full hover:bg-[#021a73] transition"
+                                className="inline-flex items-center gap-2 bg-[#223a8c] text-white px-6 py-3 rounded-full hover:bg-[#021a73] transition"
                             >
                                 Call +91 8826552527
                             </a>
@@ -82,7 +82,7 @@ export default function LegalNoticeAdvocatePage() {
           <section className="py-20 bg-gray-50">
   <div className="max-w-7xl mx-auto px-6">
     <div className="text-center mb-14">
-      <span className="text-[#03228f] uppercase tracking-widest font-semibold">
+      <span className="text-[#223a8c] uppercase tracking-widest font-semibold">
         Legal Notice Services
       </span>
 
@@ -113,8 +113,8 @@ export default function LegalNoticeAdvocatePage() {
           key={index}
           className="bg-white rounded-2xl p-6 shadow-md hover:shadow-xl transition duration-300 border border-gray-100"
         >
-          <div className="w-12 h-12 rounded-full bg-[#03228f]/10 flex items-center justify-center mb-4">
-            <FileText className="text-[#03228f]" size={22} />
+          <div className="w-12 h-12 rounded-full bg-[#223a8c]/10 flex items-center justify-center mb-4">
+            <FileText className="text-[#223a8c]" size={22} />
           </div>
 
           <h3 className="font-semibold text-lg leading-7">
@@ -124,7 +124,7 @@ export default function LegalNoticeAdvocatePage() {
       ))}
     </div>
 
-    <div className="mt-16 bg-[#03228f] rounded-3xl p-10 text-white text-center">
+    <div className="mt-16 bg-[#223a8c] rounded-3xl p-10 text-white text-center">
       <h3 className="text-3xl font-bold mb-4">
         Need a Legal Notice Drafted?
       </h3>
@@ -138,7 +138,7 @@ export default function LegalNoticeAdvocatePage() {
       <div className="flex flex-col sm:flex-row gap-4 justify-center">
         <a
           href="/contact"
-          className="bg-white text-[#03228f] px-8 py-3 rounded-full font-semibold"
+          className="bg-white text-[#223a8c] px-8 py-3 rounded-full font-semibold"
         >
           Request Call Back
         </a>
@@ -158,7 +158,7 @@ export default function LegalNoticeAdvocatePage() {
             <section className="py-20 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="text-center mb-14">
-                        <span className="text-[#03228f] uppercase tracking-widest font-semibold">
+                        <span className="text-[#223a8c] uppercase tracking-widest font-semibold">
                             Court Marriage Assistance
                         </span>
 
@@ -219,7 +219,7 @@ export default function LegalNoticeAdvocatePage() {
                     </div>
 
                     {/* CTA */}
-                    <div className="mt-12 text-center bg-[#03228f] rounded-3xl p-10 text-white">
+                    <div className="mt-12 text-center bg-[#223a8c] rounded-3xl p-10 text-white">
                         <h3 className="text-3xl font-bold mb-4">
                             Need Assistance With Court Marriage?
                         </h3>
@@ -232,7 +232,7 @@ export default function LegalNoticeAdvocatePage() {
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <a
                                 href="/contact"
-                                className="bg-white text-[#03228f] px-8 py-3 rounded-full font-semibold"
+                                className="bg-white text-[#223a8c] px-8 py-3 rounded-full font-semibold"
                             >
                                 Request Call Back
                             </a>
@@ -252,7 +252,7 @@ export default function LegalNoticeAdvocatePage() {
             <section className="py-20">
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="text-center mb-14">
-                        <span className="text-[#03228f] uppercase tracking-widest font-semibold">
+                        <span className="text-[#223a8c] uppercase tracking-widest font-semibold">
                             Court Marriage Services
                         </span>
 
@@ -408,7 +408,7 @@ export default function LegalNoticeAdvocatePage() {
                                     key={item.step}
                                     className="bg-white border border-gray-100 rounded-2xl p-6 shadow-sm"
                                 >
-                                    <div className="text-[#03228f] text-3xl font-bold mb-3">
+                                    <div className="text-[#223a8c] text-3xl font-bold mb-3">
                                         {item.step}
                                     </div>
 

@@ -3,7 +3,7 @@ export default function HowItWorks() {
         <section className="py-20 bg-gray-50">
   <div className="max-w-7xl mx-auto px-6">
     <div className="text-center mb-14">
-      <span className="text-[#03228f] uppercase tracking-widest font-semibold">
+      <span className="text-[#223a8c] uppercase tracking-widest font-semibold">
         Simple Process
       </span>
 
@@ -44,7 +44,7 @@ export default function HowItWorks() {
           key={item.number}
           className="bg-white p-8 rounded-3xl shadow-lg border border-gray-100 text-center"
         >
-          <div className="w-16 h-16 mx-auto rounded-full bg-[#03228f] text-white flex items-center justify-center text-2xl font-bold mb-6">
+          <div className="w-16 h-16 mx-auto rounded-full bg-[#223a8c] text-white flex items-center justify-center text-2xl font-bold mb-6">
             {item.number}
           </div>
 

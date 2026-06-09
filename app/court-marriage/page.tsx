@@ -46,7 +46,7 @@ export default function CourtMarriagePage() {
             {/* TEXT */}
             <div>
 
-              <span className="text-[#03228f] font-semibold uppercase tracking-widest">
+              <span className="text-[#223a8c] font-semibold uppercase tracking-widest">
                 Court Marriage Service
               </span>
 
@@ -84,7 +84,7 @@ export default function CourtMarriagePage() {
       </section>
 
       {/* CTA */}
-      <section className="bg-[#03228f] py-16">
+      <section className="bg-[#223a8c] py-16">
         <div className="max-w-4xl mx-auto text-center px-6 text-white">
 
           <Phone size={42} className="mx-auto mb-4" />
@@ -100,7 +100,7 @@ export default function CourtMarriagePage() {
 
           <a
             href="tel:+918826552527"
-            className="inline-block mt-8 bg-white text-[#03228f] px-8 py-4 rounded-full font-semibold"
+            className="inline-block mt-8 bg-white text-[#223a8c] px-8 py-4 rounded-full font-semibold"
           >
             Call Us: +91 8826552527
           </a>

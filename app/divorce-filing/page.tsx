@@ -47,7 +47,7 @@ export default function DivorceFilingPage() {
             {/* CONTENT */}
             <div>
 
-              <span className="text-[#03228f] uppercase tracking-widest font-semibold">
+              <span className="text-[#223a8c] uppercase tracking-widest font-semibold">
                 Divorce Filing Service
               </span>
 
@@ -88,7 +88,7 @@ export default function DivorceFilingPage() {
         <div className="max-w-6xl mx-auto px-6">
 
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-[#03228f]">
+            <h2 className="text-4xl font-bold text-[#223a8c]">
               Divorce Laws In India
             </h2>
 
@@ -110,7 +110,7 @@ export default function DivorceFilingPage() {
                 key={law}
                 className="bg-white p-6 rounded-2xl shadow-md flex gap-3"
               >
-                <CheckCircle className="text-[#03228f] mt-1 shrink-0" />
+                <CheckCircle className="text-[#223a8c] mt-1 shrink-0" />
                 <span>{law}</span>
               </div>
             ))}
@@ -125,7 +125,7 @@ export default function DivorceFilingPage() {
         <div className="max-w-6xl mx-auto px-6">
 
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-[#03228f]">
+            <h2 className="text-4xl font-bold text-[#223a8c]">
               How We Can Help
             </h2>
           </div>
@@ -145,7 +145,7 @@ export default function DivorceFilingPage() {
                 className="bg-gray-50 rounded-2xl p-6 shadow-sm text-center"
               >
                 <CheckCircle
-                  className="mx-auto text-[#03228f] mb-3"
+                  className="mx-auto text-[#223a8c] mb-3"
                   size={30}
                 />
 
@@ -161,7 +161,7 @@ export default function DivorceFilingPage() {
       </section>
 
       {/* CTA */}
-      <section className="bg-[#03228f] py-16">
+      <section className="bg-[#223a8c] py-16">
         <div className="max-w-4xl mx-auto text-center px-6 text-white">
 
           <Phone size={42} className="mx-auto mb-4" />
@@ -180,7 +180,7 @@ export default function DivorceFilingPage() {
 
             <a
               href="/request-a-call-back"
-              className="bg-white text-[#03228f] px-8 py-4 rounded-full font-semibold"
+              className="bg-white text-[#223a8c] px-8 py-4 rounded-full font-semibold"
             >
               Request A Call Back
             </a>

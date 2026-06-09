@@ -47,7 +47,7 @@ export default function MarriageRegistrationPage() {
             {/* TEXT */}
             <div>
 
-              <span className="text-[#03228f] uppercase tracking-widest font-semibold">
+              <span className="text-[#223a8c] uppercase tracking-widest font-semibold">
                 Marriage Registration Service
               </span>
 
@@ -89,7 +89,7 @@ export default function MarriageRegistrationPage() {
         <div className="max-w-6xl mx-auto px-6">
 
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-[#03228f]">
+            <h2 className="text-4xl font-bold text-[#223a8c]">
               Why Choose Our Service?
             </h2>
           </div>
@@ -107,7 +107,7 @@ export default function MarriageRegistrationPage() {
                 className="bg-white p-6 rounded-2xl shadow-md text-center"
               >
                 <CheckCircle
-                  className="mx-auto text-[#03228f] mb-4"
+                  className="mx-auto text-[#223a8c] mb-4"
                   size={32}
                 />
 
@@ -123,7 +123,7 @@ export default function MarriageRegistrationPage() {
       </section>
 
       {/* CTA */}
-      <section className="bg-[#03228f] py-16">
+      <section className="bg-[#223a8c] py-16">
         <div className="max-w-4xl mx-auto text-center px-6 text-white">
 
           <Phone size={42} className="mx-auto mb-4" />
@@ -141,7 +141,7 @@ export default function MarriageRegistrationPage() {
 
             <a
               href="/request-a-call-back"
-              className="bg-white text-[#03228f] px-8 py-4 rounded-full font-semibold"
+              className="bg-white text-[#223a8c] px-8 py-4 rounded-full font-semibold"
             >
               Request A Call Back
             </a>

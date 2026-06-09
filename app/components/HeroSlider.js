@@ -3,9 +3,9 @@
 import { useEffect, useState } from "react";
 
 const slides = [
-  "/images/banner-image-1.jpg",
-  "/images/banner-image-2.jpg",
-  "/images/banner-image-1.jpg",
+  "/images/banner-1.jpg",
+  "/images/banner-2.jpg",
+  "/images/banner-3.jpg",
 ];
 
 export default function HeroSlider() {
@@ -71,14 +71,14 @@ export default function HeroSlider() {
 
                 <a
                   href="/request-a-call-back"
-                  className="bg-[#2f3f8f] hover:bg-[#223a8c] text-white px-6 py-3 rounded-lg font-semibold"
+                  className="bg-[#223a8c] hover:bg-[#223a8c] text-white px-6 py-3 rounded-lg font-semibold"
                 >
                   Request Call Back
                 </a>
 
                 <a
                   href="tel:+918826552527"
-                  className="bg-white text-[#2f3f8f] px-6 py-3 rounded-lg font-semibold"
+                  className="bg-white text-[#223a8c] px-6 py-3 rounded-lg font-semibold"
                 >
                   Call Now
                 </a>
@@ -90,7 +90,7 @@ export default function HeroSlider() {
             {/* DESKTOP FORM */}
             <div className="hidden lg:block bg-white w-[340px] p-6 rounded-xl shadow-2xl">
 
-              <h2 className="bg-[#2f3f8f] text-white text-center py-3 rounded mb-5 font-semibold">
+              <h2 className="bg-[#223a8c] text-white text-center py-3 rounded mb-5 font-semibold">
                 Quick Enquiry
               </h2>
 
@@ -99,30 +99,30 @@ export default function HeroSlider() {
                 <input
                   type="text"
                   placeholder="Enter Name"
-                  className="p-3 bg-gray-100 rounded outline-none focus:ring-2 focus:ring-[#2f3f8f]"
+                  className="p-3 bg-gray-100 rounded outline-none focus:ring-2 focus:ring-[#223a8c]"
                 />
 
                 <input
                   type="text"
                   placeholder="Mobile Number"
-                  className="p-3 bg-gray-100 rounded outline-none focus:ring-2 focus:ring-[#2f3f8f]"
+                  className="p-3 bg-gray-100 rounded outline-none focus:ring-2 focus:ring-[#223a8c]"
                 />
 
                 <input
                   type="email"
                   placeholder="Email ID"
-                  className="p-3 bg-gray-100 rounded outline-none focus:ring-2 focus:ring-[#2f3f8f]"
+                  className="p-3 bg-gray-100 rounded outline-none focus:ring-2 focus:ring-[#223a8c]"
                 />
 
                 <textarea
                   rows={4}
                   placeholder="Your Message"
-                  className="p-3 bg-gray-100 rounded outline-none focus:ring-2 focus:ring-[#2f3f8f]"
+                  className="p-3 bg-gray-100 rounded outline-none focus:ring-2 focus:ring-[#223a8c]"
                 />
 
                 <button
                   type="submit"
-                  className="bg-[#2f3f8f] hover:bg-[#223a8c] text-white py-3 rounded font-medium transition"
+                  className="bg-[#223a8c] hover:bg-[#223a8c] text-white py-3 rounded font-medium transition"
                 >
                   Submit
                 </button>

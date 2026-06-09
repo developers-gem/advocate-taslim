@@ -38,7 +38,7 @@ export default function FAQSection() {
     <section className="py-20">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-14">
-          <span className="text-[#03228f] uppercase tracking-widest font-semibold">
+          <span className="text-[#223a8c] uppercase tracking-widest font-semibold">
             Frequently Asked Questions
           </span>
 

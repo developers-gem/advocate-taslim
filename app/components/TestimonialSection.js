@@ -38,7 +38,7 @@ export default function TestimonialSection() {
       <div className="max-w-6xl mx-auto px-6">
 
         <div className="text-center mb-14">
-          <span className="text-[#03228f] font-semibold tracking-widest uppercase">
+          <span className="text-[#223a8c] font-semibold tracking-widest uppercase">
             Testimonials 
           </span>
 
@@ -46,13 +46,13 @@ export default function TestimonialSection() {
             What Our Clients Say
           </h2>
 
-          <div className="w-24 h-1 bg-[#03228f] mx-auto mt-5 rounded-full" />
+          <div className="w-24 h-1 bg-[#223a8c] mx-auto mt-5 rounded-full" />
         </div>
 
         <div className="bg-white rounded-3xl shadow-xl p-8 md:p-14 relative">
 
           <Quote
-            className="absolute top-8 right-8 text-[#03228f]/10"
+            className="absolute top-8 right-8 text-[#223a8c]/10"
             size={90}
           />
 
@@ -63,7 +63,7 @@ export default function TestimonialSection() {
               <img
                 src={data[active].img}
                 alt={data[active].name}
-                className="w-36 h-36 rounded-full object-cover border-[6px] border-[#03228f]"
+                className="w-36 h-36 rounded-full object-cover border-[6px] border-[#223a8c]"
               />
             </div>
 
@@ -85,7 +85,7 @@ export default function TestimonialSection() {
                 "{data[active].text}"
               </p>
 
-              <h4 className="font-bold text-xl text-[#03228f]">
+              <h4 className="font-bold text-xl text-[#223a8c]">
                 {data[active].name}
               </h4>
 
@@ -100,7 +100,7 @@ export default function TestimonialSection() {
                     onClick={() => setActive(i)}
                     className={`h-3 rounded-full transition-all duration-300 ${
                       active === i
-                        ? "w-10 bg-[#03228f]"
+                        ? "w-10 bg-[#223a8c]"
                         : "w-3 bg-gray-300"
                     }`}
                   />

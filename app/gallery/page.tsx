@@ -44,7 +44,7 @@ export default function GalleryPage() {
       {/* INTRO */}
       <section className="py-16">
         <div className="max-w-4xl mx-auto text-center px-6">
-          <h2 className="text-4xl font-bold text-[#03228f]">
+          <h2 className="text-4xl font-bold text-[#223a8c]">
             Moments & Milestones
           </h2>
 
@@ -85,7 +85,7 @@ export default function GalleryPage() {
       </section>
 
       {/* CTA */}
-      <section className="bg-[#03228f] py-16">
+      <section className="bg-[#223a8c] py-16">
         <div className="max-w-4xl mx-auto text-center px-6 text-white">
 
           <h2 className="text-3xl md:text-4xl font-bold">
@@ -101,7 +101,7 @@ export default function GalleryPage() {
 
             <a
               href="tel:+918826552527"
-              className="bg-white text-[#03228f] px-8 py-4 rounded-full font-semibold"
+              className="bg-white text-[#223a8c] px-8 py-4 rounded-full font-semibold"
             >
               Call Now
             </a>

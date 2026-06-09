@@ -8,7 +8,7 @@ export default function ServicesSection() {
   const scroll = (direction) => {
     const container = scrollRef.current;
 
-    const cardWidth = container.firstChild.offsetWidth + 24; // gap included
+    const cardWidth = container.firstChild.offsetWidth + 24; 
 
     if (direction === "left") {
       container.scrollBy({ left: -cardWidth, behavior: "smooth" });
@@ -63,13 +63,13 @@ export default function ServicesSection() {
           <div className="flex gap-3">
             <button
               onClick={() => scroll("left")}
-              className="w-10 h-10 border rounded-full flex items-center justify-center hover:bg-gray-200"
+              className="w-10 h-10 border rounded-full flex items-center justify-center text-[24px] text-white bg-blue-800"
             >
               ‹
             </button>
             <button
               onClick={() => scroll("right")}
-              className="w-10 h-10 border rounded-full flex items-center justify-center hover:bg-gray-200"
+              className="w-10 h-10 border rounded-full flex items-center justify-center text-white text-[24px] bg-blue-800 "
             >
               ›
             </button>

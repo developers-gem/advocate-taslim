@@ -39,7 +39,7 @@ export default function RequestCallBackPage() {
             {/* FORM */}
             <div className="bg-white rounded-3xl shadow-xl p-8 md:p-10">
 
-              <span className="text-[#03228f] uppercase tracking-widest font-semibold">
+              <span className="text-[#223a8c] uppercase tracking-widest font-semibold">
                 Get In Touch
               </span>
 
@@ -52,22 +52,22 @@ export default function RequestCallBackPage() {
                 <input
                   type="text"
                   placeholder="Full Name"
-                  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#03228f]"
+                  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#223a8c]"
                 />
 
                 <input
                   type="tel"
                   placeholder="Phone Number"
-                  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#03228f]"
+                  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#223a8c]"
                 />
 
                 <input
                   type="email"
                   placeholder="Email Address"
-                  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#03228f]"
+                  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#223a8c]"
                 />
 
-                <select className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#03228f]">
+                <select className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#223a8c]">
                   <option>Select Service</option>
                   <option>Court Marriage</option>
                   <option>Marriage Registration</option>
@@ -79,12 +79,12 @@ export default function RequestCallBackPage() {
                 <textarea
                   rows={5}
                   placeholder="Your Message"
-                  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#03228f]"
+                  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#223a8c]"
                 />
 
                 <button
                   type="submit"
-                  className="bg-[#03228f] hover:bg-[#02196f] text-white px-8 py-4 rounded-xl font-semibold transition"
+                  className="bg-[#223a8c] hover:bg-[#02196f] text-white px-8 py-4 rounded-xl font-semibold transition"
                 >
                   Request Call Back
                 </button>
@@ -103,7 +103,7 @@ export default function RequestCallBackPage() {
                 className="rounded-3xl shadow-xl object-cover w-full"
               />
 
-              <div className="absolute -bottom-6 -left-6 bg-[#03228f] text-white p-6 rounded-2xl shadow-xl hidden md:block">
+              <div className="absolute -bottom-6 -left-6 bg-[#223a8c] text-white p-6 rounded-2xl shadow-xl hidden md:block">
                 <h3 className="text-3xl font-bold">
                   24/7
                 </h3>

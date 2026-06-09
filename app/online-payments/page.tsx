@@ -36,7 +36,7 @@ export default function OnlinePaymentsPage() {
         <div className="max-w-7xl mx-auto px-6">
 
           <div className="text-center mb-14">
-            <h2 className="text-4xl font-bold text-[#03228f]">
+            <h2 className="text-4xl font-bold text-[#223a8c]">
               Online Payments
             </h2>
 
@@ -98,7 +98,7 @@ export default function OnlinePaymentsPage() {
       </section>
 
       {/* HELP SECTION */}
-      <section className="bg-[#03228f] py-16">
+      <section className="bg-[#223a8c] py-16">
         <div className="max-w-4xl mx-auto text-center px-6 text-white">
 
           <Phone size={42} className="mx-auto mb-4" />
@@ -113,7 +113,7 @@ export default function OnlinePaymentsPage() {
 
           <a
             href="tel:+918826552527"
-            className="inline-flex items-center mt-8 bg-white text-[#03228f] px-8 py-4 rounded-full font-semibold"
+            className="inline-flex items-center mt-8 bg-white text-[#223a8c] px-8 py-4 rounded-full font-semibold"
           >
             Call +91 8826552527
           </a>

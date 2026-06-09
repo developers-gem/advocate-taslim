@@ -54,7 +54,7 @@ export default function AboutPage() {
 
             <div>
 
-              <span className="text-[#03228f] font-semibold uppercase tracking-widest">
+              <span className="text-[#223a8c] font-semibold uppercase tracking-widest">
                 Who We Are
               </span>
 
@@ -74,22 +74,22 @@ Since the beginning, the main theme of Advocate Taslim ,the founder of the said 
               <div className="grid sm:grid-cols-2 gap-4">
 
                 <div className="flex items-center gap-3">
-                  <ShieldCheck className="text-[#03228f]" />
+                  <ShieldCheck className="text-[#223a8c]" />
                   <span>Trusted Legal Guidance</span>
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <Scale className="text-[#03228f]" />
+                  <Scale className="text-[#223a8c]" />
                   <span>Experienced Advocate</span>
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <FileText className="text-[#03228f]" />
+                  <FileText className="text-[#223a8c]" />
                   <span>Fast Documentation</span>
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <Users className="text-[#03228f]" />
+                  <Users className="text-[#223a8c]" />
                   <span>Client Focused Service</span>
                 </div>
 
@@ -104,7 +104,7 @@ Since the beginning, the main theme of Advocate Taslim ,the founder of the said 
   <div className="max-w-7xl mx-auto px-6">
 
     <div className="text-center mb-16">
-      <span className="text-[#03228f] uppercase tracking-widest font-semibold">
+      <span className="text-[#223a8c] uppercase tracking-widest font-semibold">
         Our Beliefs
       </span>
 
@@ -121,7 +121,7 @@ Since the beginning, the main theme of Advocate Taslim ,the founder of the said 
     <div className="grid lg:grid-cols-2 gap-8">
 
       <div className="bg-white rounded-3xl p-8 shadow-lg">
-        <h3 className="text-2xl font-bold text-[#03228f] mb-4">
+        <h3 className="text-2xl font-bold text-[#223a8c] mb-4">
           Core Beliefs
         </h3>
 
@@ -148,7 +148,7 @@ Since the beginning, the main theme of Advocate Taslim ,the founder of the said 
       </div>
 
       <div className="bg-white rounded-3xl p-8 shadow-lg">
-        <h3 className="text-2xl font-bold text-[#03228f] mb-4">
+        <h3 className="text-2xl font-bold text-[#223a8c] mb-4">
           Dharma & Justice
         </h3>
 
@@ -159,7 +159,7 @@ Since the beginning, the main theme of Advocate Taslim ,the founder of the said 
           to righteousness and lawful conduct.
         </p>
 
-        <div className="mt-8 p-6 rounded-2xl bg-[#03228f] text-white">
+        <div className="mt-8 p-6 rounded-2xl bg-[#223a8c] text-white">
           <h4 className="font-bold text-xl mb-2">
             Need Legal Assistance?
           </h4>
@@ -170,7 +170,7 @@ Since the beginning, the main theme of Advocate Taslim ,the founder of the said 
 
           <a
             href="tel:+918826552527"
-            className="inline-flex items-center bg-white text-[#03228f] font-semibold px-6 py-3 rounded-full"
+            className="inline-flex items-center bg-white text-[#223a8c] font-semibold px-6 py-3 rounded-full"
           >
             Call: +91 8826552527
           </a>
@@ -182,7 +182,7 @@ Since the beginning, the main theme of Advocate Taslim ,the founder of the said 
 </section>
 
       {/* STATS */}
-      <section className="bg-[#03228f] py-20">
+      <section className="bg-[#223a8c] py-20">
         <div className="max-w-7xl mx-auto px-6">
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
@@ -216,7 +216,7 @@ Since the beginning, the main theme of Advocate Taslim ,the founder of the said 
         <div className="max-w-7xl mx-auto px-6">
 
           <div className="text-center mb-16">
-            <span className="text-[#03228f] uppercase tracking-widest">
+            <span className="text-[#223a8c] uppercase tracking-widest">
               Why Choose Us
             </span>
 
@@ -228,7 +228,7 @@ Since the beginning, the main theme of Advocate Taslim ,the founder of the said 
           <div className="grid md:grid-cols-3 gap-8">
 
             <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <Award className="text-[#03228f] mb-4" size={40} />
+              <Award className="text-[#223a8c] mb-4" size={40} />
               <h3 className="font-bold text-xl mb-3">
                 Experienced Guidance
               </h3>
@@ -238,7 +238,7 @@ Since the beginning, the main theme of Advocate Taslim ,the founder of the said 
             </div>
 
             <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <Briefcase className="text-[#03228f] mb-4" size={40} />
+              <Briefcase className="text-[#223a8c] mb-4" size={40} />
               <h3 className="font-bold text-xl mb-3">
                 Professional Service
               </h3>
@@ -248,7 +248,7 @@ Since the beginning, the main theme of Advocate Taslim ,the founder of the said 
             </div>
 
             <div className="bg-white rounded-2xl p-8 shadow-lg">
-              <Users className="text-[#03228f] mb-4" size={40} />
+              <Users className="text-[#223a8c] mb-4" size={40} />
               <h3 className="font-bold text-xl mb-3">
                 Client Satisfaction
               </h3>
@@ -278,7 +278,7 @@ Since the beginning, the main theme of Advocate Taslim ,the founder of the said 
 
             <a
               href="tel:+918826552527"
-              className="bg-[#03228f] px-8 py-4 rounded-full font-medium"
+              className="bg-[#223a8c] px-8 py-4 rounded-full font-medium"
             >
               Call Now
             </a>

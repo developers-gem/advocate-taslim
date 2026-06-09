@@ -44,7 +44,7 @@ export default function PropertyRegistrationPage() {
             </div>
 
             <div>
-              <span className="text-[#03228f] uppercase tracking-widest font-semibold">
+              <span className="text-[#223a8c] uppercase tracking-widest font-semibold">
                 Property Registration
               </span>
 
@@ -70,7 +70,7 @@ export default function PropertyRegistrationPage() {
         <div className="max-w-7xl mx-auto px-6">
 
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-[#03228f]">
+            <h2 className="text-4xl font-bold text-[#223a8c]">
               Required Documents
             </h2>
 
@@ -93,7 +93,7 @@ export default function PropertyRegistrationPage() {
                 key={item}
                 className="bg-white p-6 rounded-2xl shadow-md flex gap-3"
               >
-                <CheckCircle className="text-[#03228f] shrink-0 mt-1" />
+                <CheckCircle className="text-[#223a8c] shrink-0 mt-1" />
                 <span>{item}</span>
               </div>
             ))}
@@ -108,7 +108,7 @@ export default function PropertyRegistrationPage() {
         <div className="max-w-5xl mx-auto px-6">
 
           <div className="flex items-center gap-3 mb-8">
-            <FileText className="text-[#03228f]" size={34} />
+            <FileText className="text-[#223a8c]" size={34} />
             <h2 className="text-4xl font-bold">
               Registration Process
             </h2>
@@ -149,7 +149,7 @@ export default function PropertyRegistrationPage() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-5xl mx-auto px-6">
 
-          <h2 className="text-4xl font-bold text-[#03228f] mb-10">
+          <h2 className="text-4xl font-bold text-[#223a8c] mb-10">
             Important Information
           </h2>
 
@@ -189,7 +189,7 @@ export default function PropertyRegistrationPage() {
       </section>
 
       {/* CTA */}
-      <section className="bg-[#03228f] py-16">
+      <section className="bg-[#223a8c] py-16">
         <div className="max-w-4xl mx-auto text-center px-6 text-white">
 
           <Phone size={42} className="mx-auto mb-4" />
@@ -205,7 +205,7 @@ export default function PropertyRegistrationPage() {
 
           <a
             href="tel:+918826552527"
-            className="inline-block mt-8 bg-white text-[#03228f] px-8 py-4 rounded-full font-semibold"
+            className="inline-block mt-8 bg-white text-[#223a8c] px-8 py-4 rounded-full font-semibold"
           >
             Call Us: +91 8826552527
           </a>

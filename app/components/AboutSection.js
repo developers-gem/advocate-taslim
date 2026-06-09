@@ -16,7 +16,7 @@ export default function AboutSection() {
 
             {/* Floating Card */}
             <div className="absolute bottom-6 left-6 bg-white shadow-xl rounded-2xl px-6 py-4">
-              <h4 className="text-3xl font-bold text-[#03228f]">
+              <h4 className="text-3xl font-bold text-[#223a8c]">
                 10+
               </h4>
               <p className="text-gray-600 text-sm">
@@ -27,13 +27,13 @@ export default function AboutSection() {
 
           {/* CONTENT */}
           <div>
-            <span className="text-[#03228f] uppercase tracking-widest font-semibold">
+            <span className="text-[#223a8c] uppercase tracking-widest font-semibold">
               About Us
             </span>
 
             <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 leading-tight">
               Trusted Legal Services by
-              <span className="text-[#03228f]">
+              <span className="text-[#223a8c]">
                 {" "}Advocate Taslim
               </span>
             </h2>
@@ -71,7 +71,7 @@ export default function AboutSection() {
                   className="flex items-center gap-3"
                 >
                   <CheckCircle
-                    className="text-[#03228f]"
+                    className="text-[#223a8c]"
                     size={20}
                   />
                   <span>{item}</span>
@@ -83,14 +83,14 @@ export default function AboutSection() {
             <div className="flex flex-col sm:flex-row gap-4">
               <a
                 href="/about-us"
-                className="bg-[#03228f] text-white px-8 py-4 rounded-full font-medium text-center"
+                className="bg-[#223a8c] text-white px-8 py-4 rounded-full font-medium text-center"
               >
                 Learn More
               </a>
 
               <a
                 href="tel:+918826552527"
-                className="border border-[#03228f] text-[#03228f] px-8 py-4 rounded-full font-medium flex items-center justify-center gap-2"
+                className="border border-[#223a8c] text-[#223a8c] px-8 py-4 rounded-full font-medium flex items-center justify-center gap-2"
               >
                 <Phone size={18} />
                 Call Now
@@ -111,7 +111,7 @@ export default function AboutSection() {
       key={label}
       className="text-center bg-gray-50 rounded-2xl p-6"
     >
-      <h3 className="text-4xl font-bold text-[#03228f]">
+      <h3 className="text-4xl font-bold text-[#223a8c]">
         {number}
       </h3>
       <p className="text-gray-600 mt-2">

@@ -44,7 +44,7 @@ export default function ContactPage() {
             {/* LEFT */}
             <div>
 
-              <span className="text-[#03228f] uppercase tracking-widest font-semibold">
+              <span className="text-[#223a8c] uppercase tracking-widest font-semibold">
                 Contact Information
               </span>
 
@@ -55,7 +55,7 @@ export default function ContactPage() {
               <div className="space-y-6">
 
                 <div className="bg-white p-6 rounded-2xl shadow-md flex gap-5">
-                  <div className="w-14 h-14 rounded-full bg-[#03228f] text-white flex items-center justify-center">
+                  <div className="w-14 h-14 rounded-full bg-[#223a8c] text-white flex items-center justify-center">
                     <Phone size={24} />
                   </div>
 
@@ -74,7 +74,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="bg-white p-6 rounded-2xl shadow-md flex gap-5">
-                  <div className="w-14 h-14 rounded-full bg-[#03228f] text-white flex items-center justify-center">
+                  <div className="w-14 h-14 rounded-full bg-[#223a8c] text-white flex items-center justify-center">
                     <Mail size={24} />
                   </div>
 
@@ -93,7 +93,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="bg-white p-6 rounded-2xl shadow-md flex gap-5">
-                  <div className="w-14 h-14 rounded-full bg-[#03228f] text-white flex items-center justify-center">
+                  <div className="w-14 h-14 rounded-full bg-[#223a8c] text-white flex items-center justify-center">
                     <MapPin size={24} />
                   </div>
 
@@ -112,7 +112,7 @@ export default function ContactPage() {
                 </div>
 
                 <div className="bg-white p-6 rounded-2xl shadow-md flex gap-5">
-                  <div className="w-14 h-14 rounded-full bg-[#03228f] text-white flex items-center justify-center">
+                  <div className="w-14 h-14 rounded-full bg-[#223a8c] text-white flex items-center justify-center">
                     <Clock size={24} />
                   </div>
 
@@ -146,30 +146,30 @@ export default function ContactPage() {
                 <input
                   type="text"
                   placeholder="Your Name"
-                  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#03228f]"
+                  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#223a8c]"
                 />
 
                 <input
                   type="email"
                   placeholder="Email Address"
-                  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#03228f]"
+                  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#223a8c]"
                 />
 
                 <input
                   type="tel"
                   placeholder="Phone Number"
-                  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#03228f]"
+                  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#223a8c]"
                 />
 
                 <textarea
                   rows={6}
                   placeholder="Write Your Message..."
-                  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#03228f]"
+                  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#223a8c]"
                 />
 
                 <button
                   type="submit"
-                  className="bg-[#03228f] text-white px-8 py-4 rounded-xl font-semibold hover:bg-[#02196f] transition"
+                  className="bg-[#223a8c] text-white px-8 py-4 rounded-xl font-semibold hover:bg-[#02196f] transition"
                 >
                   Send Message
                 </button>

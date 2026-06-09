@@ -20,7 +20,7 @@ import {
 export default function Footer() {
   const quickLinks = [
     { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
+    { name: "About", href: "/about-us" },
     { name: "Request A Call Back", href: "/contact" },
     { name: "Online Payment", href: "/online-payment" },
     { name: "Gallery", href: "/gallery" },
@@ -49,18 +49,7 @@ export default function Footer() {
       name: "Court Marriage Advocate in Delhi",
       href: "/online-payments",
     },
-    {
-      name: "Online Payment",
-      href: "/online-payments",
-    },
-    {
-      name: "Gallery",
-      href: "/gallery",
-    },
-    {
-      name: "Contact Us",
-      href: "/contact",
-    },
+    
   ];
 
   return (
@@ -75,7 +64,7 @@ export default function Footer() {
       />
       <div className="absolute inset-0 bg-black/75" />
 
-      <div className="relative max-w-7xl mx-auto px-6 lg:px-8 py-20">
+      <div className="relative max-w-7xl mx-auto px-6 lg:px-8 py-5 mt-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Logo & About */}
           <div>
@@ -173,17 +162,22 @@ export default function Footer() {
             <ChevronUp size={18} />
           </button>
         </div>
-      </div>
 
-      {/* Bottom Bar */}
-      <div className="relative bg-white text-gray-800">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 py-5 flex flex-col md:flex-row items-center justify-between gap-4">
+
+         {/* Bottom Bar */}
+      <div className="">
+        <div className="max-w-7xl  px-6  py-5 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-center md:text-left flex flex-wrap items-center justify-center md:justify-start gap-2">
             <span>
               Copyright © 2026{" "}
-              <span className="text-blue-700">
-                Advocate Taslim
-              </span>{" "}
+              <a  href="https://advocatetaslim.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:opacity-80 transition text-blue-700">
+                                Advocate Taslim
+
+              </a >
+            {" "}
               All Rights Reserved. | Designed by
             </span>
 
@@ -194,9 +188,9 @@ export default function Footer() {
               className="hover:opacity-80 transition"
             >
               <img
-                src="/images/gem logo.png"
+                src="/images/gem logo white  1.png"
                 alt="Gem Web Services"
-                className="h-8 w-auto"
+                className="h-10 w-auto"
               />
             </a>
           </p>
@@ -242,6 +236,9 @@ export default function Footer() {
           </div>
         </div>
       </div>
+      </div>
+
+     
 
       {/* Floating Buttons */}
       {/* Floating Buttons */}

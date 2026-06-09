@@ -50,7 +50,7 @@ export default function CourtMarriageAdvocatePage() {
       </div>
 
       <div>
-        <span className="text-[#03228f] uppercase tracking-widest font-semibold">
+        <span className="text-[#223a8c] uppercase tracking-widest font-semibold">
           Court Marriage Advocate
         </span>
 
@@ -73,7 +73,7 @@ export default function CourtMarriageAdvocatePage() {
 
         <a
           href="tel:+918826552527"
-          className="inline-flex items-center gap-2 bg-[#03228f] text-white px-6 py-3 rounded-full hover:bg-[#021a73] transition"
+          className="inline-flex items-center gap-2 bg-[#223a8c] text-white px-6 py-3 rounded-full hover:bg-[#021a73] transition"
         >
           <Phone size={18} />
           Call +91 8826552527

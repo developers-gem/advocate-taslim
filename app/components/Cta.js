@@ -3,7 +3,7 @@ export default function Cta() {
 
         <section className="">
   <div className="max-w-full">
-    <div className="bg-[#03228f]  p-10 md:p-16 text-center text-white">
+    <div className="bg-[#223a8c]  p-10 md:p-16 text-center text-white">
       <span className="uppercase tracking-widest text-blue-200">
         Need Legal Assistance?
       </span>
@@ -21,7 +21,7 @@ export default function Cta() {
       <div className="flex  sm:flex-row gap-4 justify-center">
         <a
           href="tel:+918826552527"
-          className="bg-white text-[#03228f] px-8 py-4 rounded-full font-semibold"
+          className="bg-white text-[#223a8c] px-8 py-4 rounded-full font-semibold"
         >
           Call Now
         </a>

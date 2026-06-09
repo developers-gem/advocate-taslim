@@ -107,7 +107,7 @@ export default function MarriageRegistrationGhaziabadPage() {
                         </div>
 
                         <div>
-                            <span className="text-[#03228f] uppercase tracking-widest font-semibold">
+                            <span className="text-[#223a8c] uppercase tracking-widest font-semibold">
                                 Marriage Registration
                             </span>
 
@@ -131,7 +131,7 @@ export default function MarriageRegistrationGhaziabadPage() {
 
                             <a
                                 href="tel:+918826552527"
-                                className="inline-flex bg-[#03228f] text-white px-6 py-3 rounded-full"
+                                className="inline-flex bg-[#223a8c] text-white px-6 py-3 rounded-full"
                             >
                                 Call +91 8826552527
                             </a>
@@ -145,7 +145,7 @@ export default function MarriageRegistrationGhaziabadPage() {
                 <div className="max-w-7xl mx-auto px-6">
 
                     <div className="text-center mb-12">
-                        <h2 className="text-4xl font-bold text-[#03228f]">
+                        <h2 className="text-4xl font-bold text-[#223a8c]">
                             Why Marriage Registration Is Important
                         </h2>
 
@@ -162,7 +162,7 @@ export default function MarriageRegistrationGhaziabadPage() {
                                 className="bg-white p-6 rounded-2xl shadow-md text-center"
                             >
                                 <CheckCircle
-                                    className="mx-auto text-[#03228f] mb-4"
+                                    className="mx-auto text-[#223a8c] mb-4"
                                     size={32}
                                 />
                                 <p>{item}</p>
@@ -184,7 +184,7 @@ export default function MarriageRegistrationGhaziabadPage() {
             <section className="py-20">
                 <div className="max-w-7xl mx-auto px-6">
 
-                    <h2 className="text-4xl font-bold mb-8 text-[#03228f]">
+                    <h2 className="text-4xl font-bold mb-8 text-[#223a8c]">
                         Court Marriage Advocate in Ghaziabad – Advocate Taslim
                     </h2>
 
@@ -202,7 +202,7 @@ export default function MarriageRegistrationGhaziabadPage() {
                                 key={item}
                                 className="bg-gray-50 p-5 rounded-xl flex gap-3"
                             >
-                                <CheckCircle className="text-[#03228f] shrink-0 mt-1" />
+                                <CheckCircle className="text-[#223a8c] shrink-0 mt-1" />
                                 <span>{item}</span>
                             </div>
                         ))}
@@ -216,7 +216,7 @@ export default function MarriageRegistrationGhaziabadPage() {
             <section className="py-20 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-6">
 
-                    <h2 className="text-4xl font-bold mb-8 text-[#03228f]">
+                    <h2 className="text-4xl font-bold mb-8 text-[#223a8c]">
                         Court Marriage Lawyer in Ghaziabad
                     </h2>
 
@@ -233,7 +233,7 @@ export default function MarriageRegistrationGhaziabadPage() {
                                 key={item}
                                 className="bg-white p-5 rounded-xl shadow-sm flex gap-3"
                             >
-                                <CheckCircle className="text-[#03228f] shrink-0 mt-1" />
+                                <CheckCircle className="text-[#223a8c] shrink-0 mt-1" />
                                 <span>{item}</span>
                             </div>
                         ))}
@@ -252,7 +252,7 @@ export default function MarriageRegistrationGhaziabadPage() {
             <section className="py-20">
                 <div className="max-w-7xl mx-auto px-6">
 
-                    <h2 className="text-4xl font-bold text-center mb-12 text-[#03228f]">
+                    <h2 className="text-4xl font-bold text-center mb-12 text-[#223a8c]">
                         Documents Required For Marriage Registration
                     </h2>
 
@@ -263,7 +263,7 @@ export default function MarriageRegistrationGhaziabadPage() {
                                 key={item}
                                 className="bg-gray-50 p-6 rounded-2xl shadow-sm"
                             >
-                                <FileText className="text-[#03228f] mb-4" />
+                                <FileText className="text-[#223a8c] mb-4" />
                                 <p>{item}</p>
                             </div>
                         ))}
@@ -277,7 +277,7 @@ export default function MarriageRegistrationGhaziabadPage() {
             <section className="py-20 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-6">
 
-                    <h2 className="text-4xl font-bold text-center mb-12 text-[#03228f]">
+                    <h2 className="text-4xl font-bold text-center mb-12 text-[#223a8c]">
                         Why Choose Advocate Taslim?
                     </h2>
 
@@ -288,7 +288,7 @@ export default function MarriageRegistrationGhaziabadPage() {
                                 key={item.title}
                                 className="bg-white p-6 rounded-2xl shadow-md text-center"
                             >
-                                <div className="text-[#03228f] flex justify-center mb-4">
+                                <div className="text-[#223a8c] flex justify-center mb-4">
                                     {item.icon}
                                 </div>
 
@@ -308,7 +308,7 @@ export default function MarriageRegistrationGhaziabadPage() {
             </section>
 
             {/* CTA */}
-            <section className="bg-[#03228f] py-16">
+            <section className="bg-[#223a8c] py-16">
                 <div className="max-w-4xl mx-auto text-center px-6 text-white">
 
                     <Phone size={42} className="mx-auto mb-4" />
@@ -328,7 +328,7 @@ export default function MarriageRegistrationGhaziabadPage() {
 
                         <a
                             href="/request-a-call-back"
-                            className="bg-white text-[#03228f] px-8 py-4 rounded-full font-semibold"
+                            className="bg-white text-[#223a8c] px-8 py-4 rounded-full font-semibold"
                         >
                             Request A Call Back
                         </a>
