@@ -7,6 +7,13 @@ import {
   Briefcase,
 } from "lucide-react";
 
+export const metadata = {
+  title:
+    "Advocate Taslim – Expert Marriage Legal Services in Ghaziabad",
+  description:
+    "Trust Advocate Taslim in Ghaziabad for seamless court marriage, registration, love marriage, Arya Samaj & NRI legal support with expert, transparent services.",
+};
+
 export default function AboutPage() {
   return (
     <main className="bg-white">

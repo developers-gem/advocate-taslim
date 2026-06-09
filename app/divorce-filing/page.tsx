@@ -1,6 +1,16 @@
 import Image from "next/image";
 import { Phone, CheckCircle } from "lucide-react";
 
+
+export const metadata = {
+  title:
+    "Court Marriage Advocate in Ghaziabad",
+  description:
+    "Court Marriage Advocate in Ghaziabad – Get expert guidance by Advocate Taslim for court marriage.",
+};
+
+
+
 export default function DivorceFilingPage() {
   return (
     <main>

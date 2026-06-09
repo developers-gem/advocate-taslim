@@ -11,13 +11,13 @@ import {
 
 export const metadata = {
   title:
-    "Court Marriage Advocate in Ghaziabad",
+    "Court Marriage Registration in Delhi | Advocate Taslim",
   description:
-    "Review the Legal Notice for Advocate Taslim’s website: terms, disclaimers, and intellectual property details. Stay informed and protected.",
+    "Get expert legal assistance for Court Marriage Registration in Delhi. Advocate Taslim provides complete support for documentation, application filing, and marriage certificate services.",
 };
 
 
-export default function CourtMarriageAdvocatePage() {
+export default function CourtMarriageAdvocateInDelhiPage() {
     return(
         <main>
              {/* HERO */}
@@ -38,7 +38,7 @@ export default function CourtMarriageAdvocatePage() {
           </span>
 
           <h1 className="text-4xl md:text-6xl font-bold mt-4">
-            Court Marriage Advocate
+Court Marriage Registration in Delhi
           </h1>
         </div>
       </section>
@@ -49,7 +49,7 @@ export default function CourtMarriageAdvocatePage() {
     <div className="grid lg:grid-cols-2 gap-12 items-center">
       <div>
         <Image
-          src="/images/court-2.jpg"
+          src="/images/court-3.jpg"
           alt="Court Marriage Advocate in Ghaziabad"
           width={600}
           height={400}
@@ -63,22 +63,15 @@ export default function CourtMarriageAdvocatePage() {
         </span>
 
         <h2 className="text-4xl font-bold mt-3 mb-6">
-          Professional Legal Assistance for Court Marriage
+Court Marriage Registration in Delhi
         </h2>
 
         <p className="text-gray-600 leading-8 mb-5">
-          Looking for a reliable Court Marriage Advocate in Ghaziabad?
-          We provide professional legal assistance for smooth and
-          hassle-free court marriages under the Special Marriage Act.
+         Court Marriage Registration in Delhi is the preferred legal option for couples who want a valid and government-recognized marriage certificate without unnecessary complications. If you are searching for professional assistance with Court Marriage Registration Lawyers in Delhi, Advocate Taslim provides complete legal support for couples seeking a smooth, secure, and legally compliant marriage registration process. Our experienced legal team assists with documentation, application filing, witness requirements, and marriage certificate procedures to ensure that every step is handled professionally.
+
         </p>
 
-        <p className="text-gray-600 leading-8 mb-8">
-          Whether you are planning an inter-caste, inter-religion, or
-          love marriage, our experienced advocates guide you through
-          every step, ensuring proper documentation and legal
-          compliance.
-        </p>
-
+        
         <a
           href="tel:+918826552527"
           className="inline-flex items-center gap-2 bg-[#223a8c] text-white px-6 py-3 rounded-full hover:bg-[#021a73] transition"
@@ -97,43 +90,30 @@ export default function CourtMarriageAdvocatePage() {
       
 
       <p>
-        Looking for a reliable Court Marriage Advocate in Ghaziabad? We
-        provide professional legal assistance for smooth and hassle-free
-        court marriages under the Special Marriage Act. Our experienced
-        advocates ensure that your marriage is legally valid, properly
-        documented, and completed without unnecessary delays.
+      Whether you are planning a love marriage, inter-caste marriage, interfaith marriage, Arya Samaj marriage registration, or marriage registration after a traditional ceremony, we provide comprehensive legal guidance tailored to your specific requirements. Court Marriage Registration in Delhi offers couples legal recognition of their relationship and provides an official marriage certificate that is accepted by government departments, courts, banks, embassies, and other authorities.
+
       </p>
     </div>
 
     <div className="space-y-12 text-gray-700 leading-8">
       <div>
-        <p>
-          Whether you are planning an inter-caste, inter-religion, or
-          love marriage, our legal team guides you at every step—from
-          documentation to final registration. We provide complete
-          support to help couples complete their marriage legally and
-          efficiently while ensuring full compliance with applicable
-          laws and regulations.
-        </p>
+        
       </div>
 
       <div>
         <h2 className="text-3xl font-bold text-black mb-6">
-          Best Advocate for Court Marriage in Ghaziabad
+What is Court Marriage Registration?
         </h2>
 
         <p className="mb-5">
-          Choosing the Best Advocate for Court Marriage in Ghaziabad is
-          essential to avoid legal complications. Court marriage
-          involves documentation, verification, notice procedures, and
-          compliance with legal requirements. Any mistake can result in
-          unnecessary delays and inconvenience.
+          Court Marriage Registration in Delhi is a legal process through which a marriage is registered and recognized by the government. Unlike traditional marriages that are performed according to religious customs, court marriage is conducted before a Marriage Officer under applicable marriage laws.
+
         </p>
 
         <p>
-          Our expert lawyers specialize in court marriage procedures and
-          have successfully handled numerous cases with professionalism,
-          dedication, and complete confidentiality.
+          Court marriage offers legal validity irrespective of caste, religion, or community. It is one of the most preferred options for couples who wish to marry legally without elaborate ceremonies or who belong to different religions or castes.
+The marriage certificate issued after registration acts as official proof of marriage and is accepted across India and internationally.
+
         </p>
       </div>
 
@@ -160,75 +140,81 @@ export default function CourtMarriageAdvocatePage() {
 
       <div>
         <h2 className="text-3xl font-bold text-black mb-6">
-          Court Marriage Advocate Near Me
+Why is Court Marriage Registration Important?
         </h2>
 
         <p className="mb-5">
-          Searching for a Court Marriage Advocate near me? Our services
-          are easily accessible across Ghaziabad and nearby areas. We
-          assist couples in completing all legal formalities at the
-          local marriage registrar office efficiently.
+         Court Marriage Registration in Delhi gives your marriage legal recognition and protects the rights of both spouses. A marriage certificate serves as official proof of marriage for passports, visas, immigration, banking, insurance, property matters, and other legal purposes. It also helps establish inheritance rights, spouse nominations, and protection under matrimonial laws, making your relationship legally secure and officially recognized.
         </p>
 
-        <p>
-          Our advocates are well-versed with procedures followed at
-          Ghaziabad District Court and other local authorities,
-          ensuring faster approvals and minimal delays.
-        </p>
+        
       </div>
 
       <div>
         <h2 className="text-3xl font-bold text-black mb-6">
-          Court Marriage Process in Ghaziabad
-        </h2>
+Court Marriage Registration for Different Types of Couples        </h2>
 
-        <p className="mb-6">
+        {/* <p className="mb-6">
           The court marriage process is simple when handled by
           professionals. Our advocates assist you throughout every stage
           to ensure complete legal compliance.
-        </p>
+        </p> */}
 
         <div className="space-y-6">
           <div>
             <h4 className="font-semibold text-xl text-black">
-              1. Notice of Intended Marriage
+              1. Love Marriage Registration
+
             </h4>
             <p>
-              A notice is filed under the Special Marriage Act at the
-              marriage registrar office, declaring the intention of
-              both parties to marry.
+             Many couples choose Court Marriage Registration in Delhi after a love marriage to obtain legal recognition of their relationship.
+
             </p>
           </div>
 
           <div>
             <h4 className="font-semibold text-xl text-black">
-              2. Document Verification
+              2. Inter-Caste Marriage Registration
+
             </h4>
             <p>
-              Required documents such as age proof, address proof,
-              photographs, and identity proof are verified by the
-              concerned authorities.
+              Court marriage is an ideal option for couples belonging to different castes who wish to marry legally without social barriers.
+
             </p>
           </div>
 
           <div>
             <h4 className="font-semibold text-xl text-black">
-              3. 30-Day Notice Period
+              3. Interfaith Marriage Registration
+
             </h4>
             <p>
-              A public notice is displayed for 30 days to invite any
-              legal objections if applicable under the law.
+              Couples from different religions can legally marry through court marriage procedures and obtain a valid marriage certificate.
+
             </p>
           </div>
 
           <div>
             <h4 className="font-semibold text-xl text-black">
-              4. Marriage Registration
+              4. Arya Samaj Marriage Registration
+
+
             </h4>
             <p>
-              After the completion of the notice period, the marriage is
-              solemnized and registered in the presence of witnesses,
-              after which the marriage certificate is issued.
+              Couples who have solemnized their marriage through Arya Samaj ceremonies can subsequently apply for marriage registration.
+
+            </p>
+          </div>
+           <div>
+            <h4 className="font-semibold text-xl text-black">
+              5. NRI Marriage Registration
+
+
+
+            </h4>
+            <p>
+Indian citizens marrying Non-Resident Indians can also complete the marriage registration process with proper documentation.
+
             </p>
           </div>
         </div>
@@ -236,7 +222,8 @@ export default function CourtMarriageAdvocatePage() {
 
       <div>
         <h2 className="text-3xl font-bold text-black mb-6">
-          Documents Required for Court Marriage
+         Documents Required for Court Marriage Registration in Delhi
+
         </h2>
 
         <ul className="space-y-3 list-disc pl-6">
@@ -256,13 +243,11 @@ export default function CourtMarriageAdvocatePage() {
 
       <div>
         <h2 className="text-3xl font-bold text-black mb-6">
-          Benefits of Hiring a Court Marriage Advocate
+Why Choose Advocate Taslim for Court Marriage Registration in Delhi?
         </h2>
 
         <p className="mb-5">
-          Hiring a professional advocate offers several advantages and
-          helps ensure that the marriage process is completed smoothly
-          and legally.
+         Advocate Taslim offers reliable legal assistance for Court Marriage Registration in Delhi, helping couples complete the registration process smoothly and legally. We provide expert guidance, complete documentation support, application filing assistance, and professional representation throughout the process. Our team ensures compliance with all legal requirements while minimizing delays and complications. Whether it is a love marriage, inter-caste marriage, or interfaith marriage, we provide personalized support and assist clients until they successfully obtain their marriage certificate.
         </p>
 
         <ul className="space-y-3 list-disc pl-6">

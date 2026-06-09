@@ -1,6 +1,15 @@
 import Image from "next/image";
 import { Phone, CheckCircle } from "lucide-react";
 
+
+export const metadata = {
+  title:
+    "Court Marriage & Registration Services in Ghaziabad – Advocate Taslim",
+  description:
+    "Fast, professional Court Marriage & Marriage Registration services in Ghaziabad by Advocate Taslim. Hassle-free process, legal guidance, reliable support.",
+};
+
+
 export default function MarriageRegistrationPage() {
   return (
     <main>

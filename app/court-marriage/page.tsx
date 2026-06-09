@@ -1,6 +1,14 @@
 import Image from "next/image";
 import { Phone } from "lucide-react";
 
+
+export const metadata = {
+  title:
+    "Advocate Taslim | Court Marriage in Ghaziabad – Quick & Legal",
+  description:
+    "Advocate Taslim in Ghaziabad offers quick, trustworthy court marriage services—solemnization, registration, and certified documentation handled for you.",
+};
+
 export default function CourtMarriagePage() {
   return (
     <main>

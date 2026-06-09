@@ -1,6 +1,14 @@
 import Image from "next/image";
 import { Phone, FileText } from "lucide-react";
 
+
+export const metadata = {
+  title:
+    "Legal Notice Advocate in Ghaziabad | Advocate Taslim",
+  description:
+    "Review the Legal Notice for Advocate Taslim’s website: terms, disclaimers, and intellectual property details. Stay informed and protected.",
+};
+
 export default function LegalNoticeAdvocatePage() {
 
     return (

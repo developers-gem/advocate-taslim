@@ -9,6 +9,13 @@ import {
     Users,
 } from "lucide-react";
 
+export const metadata = {
+  title:
+    "Marriage Registration in Ghaziabad | Advocate Taslim",
+  description:
+    "Get expert help for Marriage Registration in Ghaziabad. Advocate Taslim offers legal assistance for documentation, filing, and marriage certificate services.",
+};
+
 export default function MarriageRegistrationGhaziabadPage() {
     const benefits = [
         "Applying for a Passport or Visa",

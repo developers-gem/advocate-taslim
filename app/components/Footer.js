@@ -47,8 +47,9 @@ export default function Footer() {
     },
     {
       name: "Court Marriage Advocate in Delhi",
-      href: "/online-payments",
+      href: "/court-marriage-advocate-in-delhi",
     },
+    
     
   ];
 

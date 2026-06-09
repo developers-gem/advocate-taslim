@@ -1,3 +1,4 @@
+import Link from "next/link";
 export default function TopHeader() {
   return (
     <div className="w-full bg-gray-100 border-b">
@@ -5,12 +6,13 @@ export default function TopHeader() {
 
         {/* Mobile */}
         <div className="flex md:hidden items-center justify-between">
-          <img
-            src="/images/logo.jpeg"
-            alt="logo"
-            className="w-28"
-          />
-
+           <Link href="/">
+            <img
+              src="/images/logo.jpeg"
+              alt="logo"
+              className="w-28 cursor-pointer"
+            />
+          </Link>
           <div>
               <p className="text-gray-600">
                 Customer Support
@@ -25,11 +27,13 @@ export default function TopHeader() {
         <div className="hidden md:flex items-center justify-between">
 
           {/* Logo */}
-          <img
-            src="/images/logo.jpeg"
-            alt="logo"
-            className="w-36"
-          />
+          <Link href="/">
+            <img
+              src="/images/logo.jpeg"
+              alt="logo"
+              className="w-36 cursor-pointer"
+            />
+          </Link>
 
           {/* Right Info */}
           <div className="flex items-center gap-8 text-[18px]">
