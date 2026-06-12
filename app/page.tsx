@@ -24,7 +24,7 @@ export default function Home() {
       <WhyChooseUs />
       <HowItWorks />
       <ServiceSection />
-            <FAQSection />
+      <FAQSection />
 
       <TestimonialSection />
       <Cta />

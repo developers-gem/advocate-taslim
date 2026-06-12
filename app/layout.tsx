@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import Header from "./components/Header";
-import Footer from "./components/Footer"
+import LayoutWrapper from "./components/LayoutWrapper";
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,26 +15,25 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Court Marriage Advocate in Ghaziabad | Marriage Registration Services",
-  description: "Expert Court Marriage Advocate in Ghaziabad offering hassle-free Marriage Registration in Ghaziabad. Legal, quick & reliable services with professional guidance",
+  title:
+    "Court Marriage Advocate in Ghaziabad | Marriage Registration Services",
+  description:
+    "Expert Court Marriage Advocate in Ghaziabad offering hassle-free Marriage Registration in Ghaziabad.",
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable}`}
     >
-      <body className="min-h-full flex flex-col">
-        <Header />
-        {children}
-
-<Footer />
-      </body>
+      <body> <LayoutWrapper>
+    {children}
+  </LayoutWrapper></body>
     </html>
   );
 }
