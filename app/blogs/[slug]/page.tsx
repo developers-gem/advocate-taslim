@@ -56,22 +56,34 @@ export default async function BlogDetailsPage({
     <main>
 
       {/* HERO */}
-      <section className="bg-[#223a8c] py-24">
-        <div className="max-w-5xl mx-auto px-6 text-center text-white">
+     <section className="relative min-h-[300px] sm:min-h-[400px] md:h-[450px] flex items-center justify-center">
 
-          <h1 className="text-4xl md:text-6xl font-bold">
-            {blog.title}
-          </h1>
+  <div
+    className="absolute inset-0 bg-cover bg-center"
+    style={{
+      backgroundImage: "url('/images/about-image.jpg')",
+    }}
+  />
 
-          <p className="mt-6 text-blue-100">
-            {new Date(
-              blog.createdAt
-            ).toLocaleDateString()}
-          </p>
+  <div className="absolute inset-0 bg-black/65" />
 
-        </div>
-      </section>
+  <div className="relative z-10 max-w-5xl mx-auto px-6 text-center text-white">
 
+    <span className="uppercase tracking-[4px] text-blue-300">
+      Blog Details
+    </span>
+
+    <h1 className="text-3xl sm:text-4xl md:text-6xl font-bold mt-4">
+      {blog.title}
+    </h1>
+
+    <p className="mt-6 text-gray-200">
+      {new Date(blog.createdAt).toLocaleDateString()}
+    </p>
+
+  </div>
+
+</section>
       {/* CONTENT */}
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-6">

@@ -164,19 +164,28 @@ export default function EditBlogPage() {
         />
 
         <div>
-          <input
-            type="file"
-            onChange={uploadImage}
-          />
+  <label className="block mb-2 font-medium">
+    Featured Image
+  </label>
 
-          {formData.featuredImage && (
-            <img
-              src={formData.featuredImage}
-              alt=""
-              className="w-64 mt-4 rounded"
-            />
-          )}
-        </div>
+  {formData.featuredImage && (
+    <img
+      src={formData.featuredImage}
+      alt=""
+      className="w-64 rounded-lg border mb-4"
+    />
+  )}
+
+  <input
+    type="file"
+    accept="image/*"
+    onChange={uploadImage}
+  />
+
+  <p className="text-sm text-gray-500 mt-2">
+    Select a new image to replace the current one.
+  </p>
+</div>
 
         <textarea
           placeholder="Content"

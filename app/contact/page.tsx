@@ -1,3 +1,5 @@
+"use client";
+import { useState } from "react";
 import {
   Phone,
   Mail,
@@ -5,7 +7,70 @@ import {
   Clock,
 } from "lucide-react";
 
+
+
+
+
+
 export default function ContactPage() {
+
+
+  const [loading, setLoading] = useState(false);
+
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
+  const handleSubmit = async (
+    e: React.FormEvent
+  ) => {
+    e.preventDefault();
+
+    try {
+      setLoading(true);
+
+      const res = await fetch(
+        "/api/enquiries",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type":
+              "application/json",
+          },
+          body: JSON.stringify({
+            ...formData,
+            source: "Contact Page",
+          }),
+        }
+      );
+
+      if (!res.ok) {
+        throw new Error();
+      }
+
+      alert(
+        "Thank you! We will contact you soon."
+      );
+
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        message: "",
+      });
+    } catch {
+      alert(
+        "Something went wrong. Please try again."
+      );
+    } finally {
+      setLoading(false);
+    }
+  };
+
+
   return (
     <main>
       {/* HERO */}
@@ -141,38 +206,72 @@ export default function ContactPage() {
                 Send A Message
               </h3>
 
-              <form className="space-y-5">
+              <form
+                onSubmit={handleSubmit}
+                className="space-y-5"
+              >
+               <input
+  type="text"
+  placeholder="Your Name"
+  value={formData.name}
+  onChange={(e) =>
+    setFormData({
+      ...formData,
+      name: e.target.value,
+    })
+  }
+  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#223a8c]"
+  required
+/>
 
-                <input
-                  type="text"
-                  placeholder="Your Name"
-                  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#223a8c]"
-                />
-
-                <input
-                  type="email"
-                  placeholder="Email Address"
-                  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#223a8c]"
-                />
-
-                <input
-                  type="tel"
-                  placeholder="Phone Number"
-                  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#223a8c]"
-                />
+              <input
+  type="email"
+  placeholder="Email Address"
+  value={formData.email}
+  onChange={(e) =>
+    setFormData({
+      ...formData,
+      email: e.target.value,
+    })
+  }
+  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#223a8c]"
+/>
+<input
+  type="tel"
+  placeholder="Phone Number"
+  value={formData.phone}
+  onChange={(e) =>
+    setFormData({
+      ...formData,
+      phone: e.target.value,
+    })
+  }
+  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#223a8c]"
+  required
+/>
 
                 <textarea
-                  rows={6}
-                  placeholder="Write Your Message..."
-                  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#223a8c]"
-                />
+  rows={6}
+  placeholder="Write Your Message..."
+  value={formData.message}
+  onChange={(e) =>
+    setFormData({
+      ...formData,
+      message: e.target.value,
+    })
+  }
+  className="w-full border border-gray-300 rounded-xl px-4 py-4 outline-none focus:border-[#223a8c]"
+/>
 
-                <button
-                  type="submit"
-                  className="bg-[#223a8c] text-white px-8 py-4 rounded-xl font-semibold hover:bg-[#02196f] transition"
-                >
-                  Send Message
-                </button>
+               <button
+  type="submit"
+  disabled={loading}
+  className="bg-[#223a8c] text-white px-8 py-4 rounded-xl font-semibold hover:bg-[#02196f] transition disabled:opacity-50"
+>
+  {loading
+    ? "Submitting..."
+    : "Send Message"}
+</button>
 
               </form>
 
@@ -188,15 +287,9 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-6">
 
           <div className="rounded-3xl overflow-hidden shadow-xl">
-            {/* <iframe
-              src="https://www.google.com/maps?q=New+Gandhi+Nagar+Ghaziabad&output=embed"
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.157040309707!2d77.43600177550162!3d28.65501617565255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf1dba6955555%3A0x88d7501030cf838c!2sSadar%20Tehsil%20Ghaziabad!5e0!3m2!1sen!2sin!4v1780998498574!5m2!1sen!2sin"
               width="100%"
-              height="450"
-              loading="lazy"
-              className="border-0"
-            /> */}
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.157040309707!2d77.43600177550162!3d28.65501617565255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cf1dba6955555%3A0x88d7501030cf838c!2sSadar%20Tehsil%20Ghaziabad!5e0!3m2!1sen!2sin!4v1780998498574!5m2!1sen!2sin" 
-           width="100%"
               height="450"
               loading="lazy"
               className="border-0">

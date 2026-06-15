@@ -1,10 +1,14 @@
 import Link from "next/link";
+import AdminLogoutButton from "@/app/components/AdminLogoutButton";
 
 export default function AdminLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+
+
+  
   return (
     <div className="min-h-screen flex bg-gray-100">
 
@@ -53,12 +57,9 @@ export default function AdminLayout({
               Enquiries
             </Link>
 
-            <Link
-              href="/admin/settings"
-              className="block px-4 py-3 rounded-lg hover:bg-white/10"
-            >
-              Settings
-            </Link>
+            
+
+<AdminLogoutButton />
 
           </div>
 
