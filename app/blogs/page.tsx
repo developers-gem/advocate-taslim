@@ -28,7 +28,7 @@ export default async function BlogsPage() {
   return (
     <main>
 
-       {/* HERO */}
+      {/* HERO */}
       <section className="relative min-h-[300px] md:min-h-[400px] flex items-center justify-center">
         <div
           className="absolute inset-0 bg-cover bg-center"
@@ -45,7 +45,7 @@ export default async function BlogsPage() {
           </span>
 
           <h1 className="text-4xl md:text-6xl font-bold mt-4">
-                        Legal Blogs
+            Legal Blogs
 
           </h1>
 
@@ -74,6 +74,7 @@ export default async function BlogsPage() {
                     }
                     alt={blog.title}
                     fill
+                    unoptimized
                     className="object-cover"
                   />
 
