@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-
+import TiptapEditor from "@/app/components/TiptapEditor";
 
 export default function CreateBlogPage() {
   const [loading, setLoading] = useState(false);
@@ -197,24 +197,21 @@ export default function CreateBlogPage() {
           </div>
 
           {/* CONTENT */}
-          <div>
-            <label className="block mb-2 font-medium">
-              Content
-            </label>
+       <div>
+  <label className="block mb-2 font-medium">
+    Content
+  </label>
 
-            <textarea
-              rows={12}
-              value={formData.content}
-              onChange={(e) =>
-                setFormData({
-                  ...formData,
-                  content: e.target.value,
-                })
-              }
-              className="w-full border p-3 rounded-lg"
-              required
-            />
-          </div>
+  <TiptapEditor
+    content={formData.content}
+    onChange={(value) =>
+      setFormData({
+        ...formData,
+        content: value,
+      })
+    }
+  />
+</div>
 
           {/* SEO TITLE */}
           <div>
