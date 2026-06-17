@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-
+export const dynamic = "force-dynamic";
 import { connectDB } from "@/lib/mongodb";
 import Blog from "@/models/Blog";
 
